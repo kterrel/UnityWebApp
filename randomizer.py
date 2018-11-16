@@ -12,7 +12,7 @@ def Randomize(count_list):
 	while (rand_int in count_list):
 		if (loop_failsafe == 2):
 			break
-		rand_int+=1
+		rand_int=randint(0,21)
 		if (rand_int == 22):
 			rand_int = 0
 			loop_failsafe += 1
